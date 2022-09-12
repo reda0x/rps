@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 9, 30, 0.7), rgba(0, 9, 30, 0.5)), url(bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: linear-gradient(black,rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0));
+}
+.head-container h1{
+    text-transform: uppercase;
+    color: white;
+}
+.title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-transform: uppercase;
+    color: rgb(240, 240, 240);
+}
+.player-choises-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-choises-container button{
+    border: none;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 5rem;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.butt-cont1,
+.butt-cont2,
+.butt-cont3{
+    position: relative;
+    height: 135px;
+    width: 135px;
+    background: white;
+    border-radius: 50%;
+    margin: 0 1rem 0 1rem;
+}
+.butt-cont1:active{
+    border: 2px solid black;
+}
+.butt-cont2:active{
+    border: 2px solid black;
+}
+.butt-cont3:active{
+    border: 2px solid black;
+}
+
+.result-container{
+    height: 150px;
+    margin-top: 20px;
+}
+.clear-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+.clear-container button{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+.hands,
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
